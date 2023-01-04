@@ -783,4 +783,28 @@ body {
 .footer__bottom--forum i {
   color: #fff;
   font-size: 25px;
+}
+
+.footer__bot {
+  display: flex;
+  background-color: #172134;
+  justify-content: space-around;
+  padding: 30px 10px;
+}
+.footer__bot .language {
+  width: 160px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background-color: #232C3E;
+  color: #fff;
+  padding: 0px 10px;
+}
+.footer__bot p {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.2;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=indexstyle.css.map */
