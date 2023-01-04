@@ -3,29 +3,34 @@
   padding: 0px;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100vh;
 }
 
 .nav {
-  width: 100%;
   background-color: #fff;
   height: 25px;
   padding: 20px 60px 20px 0px;
+}
+.nav .navcontayner {
   align-items: center;
+  justify-content: space-around;
 }
 .nav__menu {
   z-index: 1;
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  justify-content: center;
+}
+.nav__list {
+  margin-right: 20px;
 }
 .nav__link {
   text-decoration: none;
   color: #000;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -513,7 +518,6 @@ html, body {
 
 .haedbottom {
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   -moz-column-gap: 130px;
@@ -521,7 +525,28 @@ html, body {
   width: 100%;
   height: 25px;
   padding: 15px 0px;
-  background-color: #BA958B;
+  background-color: #ba958b;
+}
+
+.input-contayner {
+  position: relative;
+}
+.input-contayner .lupa {
+  position: absolute;
+  font-size: 20px;
+  top: 7px;
+  right: 10px;
+}
+
+.language-contayner {
+  position: relative;
+}
+.language-contayner .glob {
+  position: absolute;
+  font-size: 20px;
+  top: 7px;
+  right: 18px;
+  color: #fff;
 }
 
 .haedbottom__logo {
@@ -543,7 +568,7 @@ html, body {
   border: none;
   border-radius: 3px;
   outline: none;
-  background-color: #BE9A91;
+  background-color: #be9a91;
   color: #fff;
   padding: 0px 10px;
 }
@@ -564,21 +589,6 @@ html, body {
 
 .fa-user {
   font-size: 30px;
-}
-
-.lupa {
-  position: absolute;
-  font-size: 20px;
-  top: 17px;
-  left: 780px;
-}
-
-.glob {
-  position: absolute;
-  font-size: 20px;
-  top: 17px;
-  right: 419px;
-  color: #fff;
 }
 
 .slide {
@@ -612,11 +622,11 @@ html, body {
   font-size: 30px;
   font-weight: 600;
   position: absolute;
-  top: 106px;
-  right: 230px;
+  top: 100%;
+  right: 47%;
 }
 .centr__button {
-  background-color: #BA958B;
+  background-color: #ba958b;
   border: none;
   border-radius: 3px;
   width: 150px;
@@ -680,7 +690,7 @@ html, body {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #BA958B;
+  color: #ba958b;
   visibility: hidden;
 }
 .bestsellers__card:hover {
@@ -703,11 +713,11 @@ html, body {
 }
 .bestsellers__card--title:hover {
   cursor: pointer;
-  color: #BA958B;
+  color: #ba958b;
 }
 .bestsellers__card--price {
   font-size: 16px;
-  color: #BE9A91;
+  color: #be9a91;
 }
 
 .footer {
@@ -753,52 +763,24 @@ html, body {
   outline: none;
   border: none;
   padding: 5px 15px;
-  background-color: #232C3E;
+  background-color: #232c3e;
 }
 .footer__bottom--forum input[type=submit] {
   width: 50px;
   height: 39px;
   outline: none;
   border: none;
-  background-color: #BA958B;
+  background-color: #ba958b;
   color: #fff;
 }
 .footer__bottom--forum p {
   font-size: 16px;
   color: #fff;
-  letter-spacing: 0.3;
+  letter-spacing: 0.2;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .footer__bottom--forum i {
   color: #fff;
   font-size: 25px;
-}
-
-.footer__bot {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #172134;
-  align-items: center;
-  width: 100%;
-  margin: auto;
-}
-.footer__bot .language {
-  width: 160px;
-  height: 30px;
-  border: none;
-  border-radius: 3px;
-  outline: none;
-  background-color: #232C3E;
-  color: #fff;
-  padding: 0px 10px;
-}
-.footer__bot p {
-  font-size: 16px;
-  color: #fff;
-  letter-spacing: 0.3;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }/*# sourceMappingURL=indexstyle.css.map */
